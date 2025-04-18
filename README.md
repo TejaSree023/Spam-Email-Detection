@@ -16,6 +16,7 @@ Visualization of data distribution and model performance metrics
 A Flask API for real-time spam prediction on new emails
 
 FEATURES
+
 High accuracy spam detection (>97%)
 
 Visualization of dataset distribution, confusion matrices, ROC curve, and performance metrics
@@ -25,9 +26,10 @@ REST API to classify new email text inputs
 Easily extensible for other datasets or models
 
 REQUIREMENTS
+
 Python 3.7+
 
-Packages:
+PACKAGES:
 
 pandas
 
