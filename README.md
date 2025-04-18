@@ -1,28 +1,17 @@
 # Spam-Email-Detection
-Spam Email Detection System
-Overview
 This project implements a spam email detection system using machine learning techniques — specifically Multinomial Naive Bayes and Logistic Regression. The system classifies emails as spam or not spam (ham) based on their content.
-
 The model is trained on the publicly available SMS Spam Collection Dataset, and the project includes:
-
 Data preprocessing (cleaning, tokenization, stemming)
-
 Feature extraction using TF-IDF vectorization
-
 Model training, evaluation, and hyperparameter tuning
-
 Visualization of data distribution and model performance metrics
-
 A Flask API for real-time spam prediction on new emails
 
 # FEATURES
 
 High accuracy spam detection (>97%)
-
 Visualization of dataset distribution, confusion matrices, ROC curve, and performance metrics
-
 REST API to classify new email text inputs
-
 Easily extensible for other datasets or models
 
 # REQUIREMENTS
@@ -30,7 +19,6 @@ Easily extensible for other datasets or models
 Python 3.7+
 
 ## PACKAGES:
-
 pandas
 
 scikit-learn
@@ -46,9 +34,8 @@ joblib
 flask
 
 requests (for testing API)
-# Evaluation Metrics 
-Accuracy: 97.4% - 98.4%
-
-Precision: 97% - 100%
-
-F1-Score: 89.2% - 93.8%
+### Evaluation Metrics :
+- Accuracy: 97.5%
+- Precision: 99.0%
+- Recall: 89.5%
+- F1-Score: 94.0%
