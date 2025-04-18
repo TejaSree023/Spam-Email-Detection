@@ -46,3 +46,9 @@ joblib
 flask
 
 requests (for testing API)
+# Evaluation Metrics 
+Accuracy: 97.4% - 98.4%
+
+Precision: 97% - 100%
+
+F1-Score: 89.2% - 93.8%
